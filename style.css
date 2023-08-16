@@ -13,10 +13,10 @@ body {
     height: 100vh;
 }
 .nav-container {
-    height: 10vh;
+    height: 5vh;
     background-color: black;    
 
-    font-size: calc(0.9rem + 2vw);
+    font-size: calc(0.9rem + 1vw);
 color: whitesmoke;
 display: flex;
 justify-content: space-around;
@@ -44,4 +44,31 @@ a {
     
     color: black;
     
+}
+
+.bg-container {
+    position: relative;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-puppies {
+    position: absolute;
+height: 100%;
+width: 100%;
+
+    background: no-repeat center/100% url('puppies.jpg');
+    opacity: 0.5;
+    z-index: -1;
+    
+}
+
+.bg-content {
+    position: relative;
+    color: white;
+    z-index: 1;
+    text-align: center;
+   
 }
