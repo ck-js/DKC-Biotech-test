@@ -3,6 +3,7 @@ html {
     font-size: 16px;
     padding: 0;
     margin: 0;
+    height: 100vh;
 
 }
 
@@ -28,6 +29,9 @@ align-items: center;
     flex-direction: row;
     gap: 100px  ;
 }
+.nav-links li:hover{
+    text-decoration: underline purple;
+}
 
 .nav-container li,
 a {
@@ -35,8 +39,6 @@ a {
     text-decoration: none;
     color: antiquewhite;
 }
-
-
 
 .logo {
     height: 29rem;
@@ -46,9 +48,11 @@ a {
     
 }
 
+
+
 .bg-container {
     position: relative;
-    height: 80vh;
+    height: 38rem;
     display: flex;
     justify-content: center;
     align-items: center ;
@@ -85,7 +89,18 @@ width: 100%;
 .sub-heading>span {
     color: black;
 }
-.sub-heading+p {
+.bg-content .sub-heading+p {
 color: white;
 font-size: 2rem;
 } 
+
+.section-2-container {
+    height: 30rem;
+    background-color: white;
+    color: rgB(16	23	40);	
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
