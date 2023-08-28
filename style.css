@@ -140,7 +140,7 @@ font-size: 2rem;
     }
 
     .section-4-container {
-        height: 800rem;
+        /* height: 800rem; */
 display: flex;
 flex-direction: column;
 justify-content: space-evenly;
@@ -210,4 +210,23 @@ font-size: 1.5rem;
 max-width: 45ch;
 text-align: center;
 padding: 5px 40px ;
+}
+
+.section-5-container {
+    height: 600px;
+    background-color: white;
+    color: rgB(16	23	40);	
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.quote-container blockquote {
+    color: red;
+    font-size: calc(1.3rem + 2vw);
+width: 35ch;
+display: inline;
+line-height: 1;
+
 }
