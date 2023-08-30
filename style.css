@@ -219,14 +219,48 @@ padding: 5px 40px ;
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
 
+.quote-container {
+    padding-left: calc(5vw + 20px);
+    padding-right: calc(5vw + 20px);
 }
 
 .quote-container blockquote {
     color: red;
-    font-size: calc(1.3rem + 2vw);
+    font-size: calc(1.3rem + 1.6vw);
 width: 35ch;
 display: inline;
 line-height: 1;
+
+}
+.quote-container footer {
+color: green;
+text-align: right;
+position: relative;
+top: 50px;
+right: 200px;
+
+
+}
+
+.footer-container {
+    height: 15rem;
+    display: flex;
+justify-content: space-around;
+
+}
+
+.footer-logo-container {
+    /* border: 3px solid white; */
+
+}
+
+.footer-logo {
+font-size: 2rem;
+/* position: relative;
+top: 1em; */
+padding: 0.5em;
 
 }
