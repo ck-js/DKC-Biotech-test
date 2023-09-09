@@ -327,6 +327,28 @@ text-align: center;
 padding: 5px 40px ;
 }
 
+.ecommerce-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+
+
+}
+.shopee-button,
+.lazada-button, 
+img {
+    width: 33vw;
+}
+.lazada-button img {
+height: -50%;
+
+}
+
+
+
+
+
 .section-5-container {
     height: 600px;
     background-color: white;
