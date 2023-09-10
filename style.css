@@ -340,6 +340,7 @@ margin-bottom: 100px;
 .shopee-button img {
     width: 100%;
     height: auto;
+    
 
 }
 
@@ -349,7 +350,16 @@ margin-bottom: 100px;
 
 }
 
+.line-button img {
+    width: calc(50px + 5vw);
+    height: auto;
+    background: transparent;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 
+}
 
 
 
